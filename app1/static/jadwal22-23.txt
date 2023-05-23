@@ -1,0 +1,138 @@
+Fisika_2 X 2 3 senin 700 900 SKPB_Reg X wajib
+Sistem_Operasi A 4 4 senin 700 900 103 BJ wajib
+Komputasi_Pervasif_dan_Jaringan_Sensor A 8 3 senin 700 900 104 RA pilihan
+Probabilitas_dan_Statistik A 4 3 senin 700 900 105a BA wajib
+Pemrograman_Berbasis_Kerangka_Kerja A 6 3 senin 700 900 106 MN wajib
+Pemrograman_Jaringan D 6 3 senin 700 900 LP2 HS wajib
+-
+Sistem_Digital A 2 3 senin 1000 1200 101 RA wajib
+Manajemen_Basis_Data A 4 3 senin 1000 1200 102 DS wajib
+Animasi_Komputer_dan_Pemodelan_3D A 8 3 senin 1000 1200 103 SA pilihan
+Sistem_Digital D 2 3 senin 1000 1200 104 TA wajib
+Analisis_dan_Perancangan_Sistem_Informasi A 4 3 senin 1000 1200 105b AL wajib
+Manajemen_Basis_Data B 4 3 senin 1000 1200 105a SR wajib
+Pemodelan_dan_Simulasi A 8 3 senin 1000 1200 106 IL pilihan
+Pemrograman_Jaringan A 6 3 senin 1000 1200 LP2 RM wajib
+-
+Wawasan_dan_Aplikasi_Teknologi X 8 2 senin 1300 1500 SKPB_reg X wajib
+Struktur_Data B 2 3 senin 1300 1500 101 YP wajib
+Game_Cerdas A 6 3 senin 1300 1500 103 DH pilihan
+Pemrograman_Web A 5 3 senin 1300 1500 105a FB aksel
+Interaksi_Manusia_dan_Komputer LP1 6 3 senin 1300 1500 LP1 HF wajib
+Manajemen_Basis_Data C 4 3 senin 1300 1500 LP2 MN wajib
+-
+Sistem_Digital B 2 3 senin 1500 1700 101 WS wajib
+Pemrograman_Jaringan B 6 3 senin 1600 1800 LP2 BJ wajib
+-
+-
+Sistem_Digital C 2 3 selasa 800 1000 101 TA wajib
+Struktur_Data C 2 3 selasa 700 900 102 DS wajib
+Analisis_Jejaring_Sosial A 8 3 selasa 700 900 103 DP pilihan
+Perancangan_dan_Analisis_Algoritma A 4 4 selasa 700 900 104 RL wajib
+Teori_Graf_dan_Otomata A 6 3 selasa 700 900 105b AW wajib
+Forensik_Digital A 8 3 selasa 700 900 105a HS pilihan
+Interaksi_Manusia_dan_Komputer B 6 3 selasa 700 900 LP1 SA wajib
+Kecerdasan_Komputasional A 1 3 selasa 700 900 111 NS wajib
+-
+Pengolahan_Citra_Digital A 6 3 selasa 1000 1200 102 HT pilihan
+Sistem_Operasi B 4 4 selasa 1000 1200 103 AM wajib
+Rekayasa_Kebutuhan A 6 3 selasa 1000 1200 104 RN wajib
+Penjaminan_Mutu_Perangkat_Lunak A 8 3 selasa 1000 1200 105b ST pilihan
+Analisis_dan_Perancangan_Sistem_Informasi B 4 3 selasa 1000 1200 105a SR wajib
+Pemrograman_Berbasis_Kerangka_Kerja B 6 3 selasa 1000 1200 106 FB wajib
+Kecerdasan_Buatan A 4 3 selasa 1000 1200 LP1 DA wajib
+Pemrograman_Jaringan C 6 3 selasa 1000 1200 LP2 RM wajib
+-
+Agama_Islam X 2 2 selasa 1100 1300 SKPB_reg X wajib
+Rekayasa_Kebutuhan B 6 3 selasa 1300 1500 102 RN wajib
+Kecerdasan_Buatan B 4 3 selasa 1300 1500 103 DA wajib
+Perancangan_dan_Analisis_Algoritma B 4 4 selasa 1300 1500 104 RL wajib
+Rekayasa_Kebutuhan C 6 3 selasa 1300 1500 105b AL wajib
+Analisis_dan_Perancangan_Sistem_Informasi C 4 3 selasa 1300 1500 105a SR wajib
+Deep_Learning A 8 3 selasa 1300 1500 106 CF pilihan
+Interaksi_Manusia_dan_Komputer C 6 3 selasa 1300 1500 LP1 SA wajib
+-
+Matematika_2 X 2 3 selasa 1500 1700 SKPB_reg X wajib
+Analisis_dan_Perancangan_Sistem_Informasi D 4 3 selasa 1500 1700 105b SR wajib
+Teknologi_IoT A 8 3 selasa 1500 1700 106 AM pilihan
+-
+-
+-
+Fisika_2 X 2 3 rabu 700 900 SKPB_reg X wajib
+Sistem_Operasi D 4 4 rabu 700 900 101 BS wajib
+Perancangan_dan_Analisis_Algoritma C 4 4 rabu 700 900 104 RL wajib
+Teori_Graf_dan_Otomata B 6 3 rabu 700 900 105b AW wajib
+Probabilitas_dan_Statistik B 4 3 rabu 700 900 105a BA wajib
+Analisis_dan_Perancangan_Sistem_Informasi E 4 3 rabu 700 900 106 FB wajib
+Interaksi_Manusia_dan_Komputer D 6 3 rabu 700 900 LP1 HF wajib
+-
+Sistem_Digital E 2 3 rabu 1000 1200 101 SD wajib
+Manajemen_Basis_Data D 4 3 rabu 1000 1200 102 SC wajib
+Sistem_Operasi C 4 4 rabu 1000 1200 103 AM wajib
+Kecerdasan_Buatan D 4 3 rabu 1000 1200 104 NS wajib
+Analisis_dan_Perancangan_Sistem_Informasi F 4 3 rabu 1000 1200 105b ST wajib
+Tata_Kelola_Teknologi_Informasi A 8 3 rabu 1000 1200 105a AL pilihan
+Pemrograman_Berbasis_Kerangka_Kerja C 6 3 rabu 1000 1200 106 RJ wajib
+Pemrograman_Jaringan E 6 3 rabu 1000 1200 LP1 BS wajib
+Data_Mining A 6 3 rabu 1000 1200 LP2 DA pilihan
+Struktur_Data E 2 3 rabu 1000 1200 112 AR wajib
+-
+Audit_Sistem A 8 3 rabu 1300 1500 101 RS-KR pilihan
+Sistem_Digital G 2 3 rabu 1300 1500 103 WS-RA wajib
+Kecerdasan_Buatan D 4 3 rabu 1300 1500 104 CF wajib
+Probabilitas_dan_Statistik C 4 3 rabu 1300 1500 105a AS wajib
+Pemrograman_Berbasis_Kerangka_Kerja D 6 3 rabu 1300 1500 106 FB wajib
+-
+Sistem_Digital F 2 3 rabu 1500 1700 101 WS wajib
+Perancangan_dan_Analisis_Algoritma D 4 4 rabu 1500 1700 104 AB wajib
+Sistem_Game A 8 3 rabu 1500 1700 LP1 IM pilihan
+-
+-
+Struktur_Data F 2 3 kamis 700 900 102 DS wajib
+Manajemen_Basis_Data E 4 3 kamis 700 900 103 KR wajib
+Perancangan_dan_Analisis_Algoritma E 4 4 kamis 700 900 103 IS wajib
+Teori_Graf_dan_Otomata C 6 3 kamis 700 900 105b AW wajib
+Probabilitas_dan_Statistik D 4 3 kamis 700 900 105a BA wajib
+Pengembangan_Analisis_Algoritma A 6 3 kamis 700 900 106 RL pilihan
+Struktur_Data A 2 3 kamis 700 900 111 DP wajib
+Struktur_Data D 2 3 kamis 700 900 112 AR wajib
+-
+Kewarganegaraan X 2 2 kamis 1100 1300 SKPB_reg X wajib
+Pengantar_Logika_dan_Pemrograman A 3 3 kamis 1000 1200 101 RL wajib
+Manajemen_Basis_Data F 4 3 kamis 1000 1200 102 RN wajib
+Kecerdasan_Buatan E 4 3 kamis 1000 1200 104 AY wajib
+Rekayasa_Kebutuhan D 6 3 kamis 1000 1200 105a DO wajib
+Perancangan_Keamanan_Sistem_dan_Jaringan A 8 3 kamis 1000 1200 106 BS pilihan
+-
+Dasar_Pemrograman A 1 4 kamis 1300 1500 101 YP ulang
+Grafika_Komputer A 5 3 kamis 1300 1500 102 SA aksel
+Pemrograman_Berbasis_Kerangka_Kerja E 6 3 kamis 1300 1500 106 RJ wajib
+-
+Matematika_2 X 2 3 kamis 1500 1700 SKPB_reg X wajib
+Sistem_Operasi F 4 4 kamis 1500 1700 103 WS wajib
+Perancangan_dan_Analisis_Algoritma F 4 4 kamis 1500 1700 104 AB wajib
+Teori_Graf_dan_Otomata D 6 3 kamis 1500 1700 105b VH wajib
+Perancangan_dan_Analisis_Algoritma G 4 4 kamis 1500 1700 105a IS wajib
+-
+-
+-
+Bahasa_Inggris X 2 2 jumat 700 900 SKPB_reg X wajib
+Big_Data A 8 3 jumat 700 900 101 MN pilihan
+Perancangan_dan_Analisis_Algoritma H 4 4 jumat 700 900 103 IS wajib
+Sistem_Operasi E 4 4 jumat 700 900 104 HS wajib
+Probabilitas_dan_Statistik E 4 3 jumat 700 900 105b AW wajib
+Rekayasa_Kebutuhan E 6 3 jumat 700 900 105a DO wajib
+-
+Agama_Non_Islam X 2 2 jumat 900 1100 SKPB_reg X wajib
+Analisis_Data_Multivariat A 6 3 jumat 900 1100 104 AS pilihan
+Matematika_Diskrit A 1 3 jumat 900 1100 105a VH-JL-BA ulang
+Arsitektur_Perangkat_Lunak A 6 3 jumat 900 1100 106 RJ pilihan
+-
+Struktur_Data G 2 3 jumat 1300 1500 102 YP wajib
+Kecerdasan_Buatan F 4 3 jumat 1300 1500 103 DH wajib
+Teori_Graf_dan_Otomata E 6 3 jumat 1300 1500 104 VH wajib
+Probabilitas_dan_Statistik F 4 3 jumat 1300 1500 105b AS wajib
+Rekayasa_Kebutuhan F 6 3 jumat 1300 1500 105a UY wajib
+-
+-
+-

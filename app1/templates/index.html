@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://unpkg.com/xterm/css/xterm.css">
+    <script src="https://unpkg.com/xterm/lib/xterm.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'stylesheet/style.css' %}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=a Atmospheric:wght@400&display=swap"
+    >
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+    >
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+    >
+  </head>
+  <body>
+    <div class="main2">
+      <div class="desktop-6">
+      {% include 'navbar.html' %}
+        <div class="desktop-6-inner">
+          <div class="generate-your-frs-schedule-bas-parent">
+            <div class="meet-our-team">
+              <p class="generate-your-frs1" data-aos="zoom-in" data-aos-duration="1000">Generate your FRS schedule</p>
+              <p class="generate-your-frs1" data-aos="zoom-in" data-aos-duration="1000">based on your priority</p>
+            </div>
+            <div class="vector-group">
+              <img class="frame-inner" alt="" src="{% static 'vector/Vector 202.png' %}" />
+
+              <div class="project-kelompok" data-aos="zoom-in" data-aos-duration="1000">project kelompok 4 kb-b</div>
+              <img class="frame-inner" alt="" src="{% static 'vector/Vector 202.png' %}" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="desktop-8">
+        <div class="frame-parent6">
+          <div class="about-auto-frs-parent">
+            <div class="about-auto-frs" data-aos="zoom-in" data-aos-duration="1000">about auto frs</div>
+            <div class="auto-frs-merupakan" data-aos="zoom-in-down" data-aos-duration="1000">
+              Auto FRS merupakan suatu program yang didesain untuk memudahkan
+              mahasiswa untuk mengambil Matakuliah pilihan. Program ini dibuat
+              menggunakan Algortihma CSP dengan metode Backtracking.
+            </div>
+            <button onclick="location.href={% url 'app1:csphome' %};" id="main" class="py-button" data-aos="zoom-in-down" data-aos-duration="1000">Coba Auto FRS!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-10">
+        <div class="contact-frame">
+          <div class="content-frame">
+            <div class="contact-message">
+              <div class="contact-title">
+                <div class="contact-person" data-aos="zoom-in" data-aos-duration="1000">Contact person</div>
+              </div>
+              <div class="contact-message1">
+                <div class="ada-masalah-hubungi" data-aos="zoom-in" data-aos-duration="1000">
+                  Ada masalah? hubungi contact person kami!
+                </div>
+              </div>
+            </div>
+            <div class="contact-button" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="contact-button-1">
+                <img
+                  class="iconoutlinephone"
+                  alt=""
+                  src="{% static 'photo/logo/phone.png' %}"
+                />
+  
+                <div class="text-icon">081317491256 (Awan)</div>
+              </div>
+              <div class="contact-button-2" data-aos="zoom-in" data-aos-duration="1000">
+                <img
+                  class="iconoutlinephone"
+                  alt=""
+                  src="{% static 'photo/logo/phone.png' %}"
+                />
+  
+                <div class="text-icon">+6281317491256 (Dimas)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="main-footer">
+          <div class="footer-autofrs">
+            <div class="schematics-container">
+              <div class="auto-frs">AUTO FRS</div>
+            </div>
+            <div class="westheimer-rd-santa-container">
+              <p class="westheimer-rd-santa">
+
+              </p>
+              <p class="westheimer-rd-santa"></p>
+            </div>
+          </div>
+          <div class="footer-button-1">
+            <div class="about-us">Features</div>
+          </div>
+          <div class="footer-button-1">
+            <div class="about-us">About Us</div>
+          </div>
+        </div>
+        <img class="line-icon" alt="" src="{% static 'photo/logo/Line.png' %}" />
+  
+        <div class="copyright">
+          <div class="auto-frs">© AUTO FRS</div>
+          <div class="footer-social-media">
+            <div class="twitter-logo">
+              <img
+                class="bxl-twitter-1-icon"
+                alt=""
+                src="{% static 'photo/socmed/bxl-twitter 1.png' %}"
+              />
+            </div>
+            <div class="twitter-logo">
+              <img
+                class="bxl-twitter-1-icon"
+                alt=""
+                src="{% static 'photo/socmed/bxl-instagram-alt 1.png' %}"
+              />
+            </div>
+            <div class="twitter-logo">
+              <img
+                class="bxl-twitter-1-icon"
+                alt=""
+                src="{% static 'photo/socmed/bxl-youtube 1.png' %}"
+              />
+            </div>
+            <div class="twitter-logo">
+              <img
+                class="bxl-linkedin-1-icon"
+                alt=""
+                src="{% static 'photo/socmed/bxl-linkedin 1.png' %}"
+              />
+            </div>
+            <div class="twitter-logo">
+              <img
+                class="bxl-linkedin-1-icon"
+                alt=""
+                src="{% static 'photo/socmed/bxl-tiktok 1.png' %}"
+              />
+            </div>
+            <div class="twitter-logo">
+              <img class="bxl-twitter-1-icon" alt="" src="{% static 'photo/socmed/cib_line.png' %}" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </div>
+
+  </body>
+</html>

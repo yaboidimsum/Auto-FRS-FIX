@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <link rel="stylesheet" href="https://unpkg.com/xterm/css/xterm.css">
+  <script src="https://unpkg.com/xterm/lib/xterm.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'stylesheet/style.css' %}">
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=a Atmospheric:wght@400&display=swap"
+  >
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+  >
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+  >
+</head>
+<body>
+{% include 'navbar.html' %}
+<div class="desktop-7">
+  <div class="frame-parent">
+    <div class="meet-our-team-wrapper">
+      <div class="meet-our-team" data-aos="zoom-in" data-aos-duration="1000">Meet our team!</div>
+    </div>
+    <div class="frame-group">
+      <div class="frame-div" data-aos="zoom-in-down" data-aos-duration="1000">
+        <div class="frame-parent1">
+          <div class="rectangle-parent">
+            <div class="rectangle-div"></div>
+            <div class="frame-child1"></div>
+            <div class="frame-child2"></div>
+          </div>
+          <img
+            class="unsplashzz5lqe-vsmy-icon"
+            alt=""
+            src="{% static 'photo/our team/ucup.png' %}"
+          />
+        </div>
+        <b class="programmer">Algorithm Programmer</b>
+        <b class="ghifari-maaliki-syafa">Ghifari Maaliki Syafa Syuhada</b>
+      </div>
+      <div class="frame-div" data-aos="zoom-in-down" data-aos-duration="1000">
+        <div class="frame-parent1">
+          <div class="rectangle-parent">
+            <div class="rectangle-div"></div>
+            <div class="frame-child1"></div>
+            <div class="frame-child2"></div>
+          </div>
+          <div class="wrapper">
+            <img class="icon" alt="" src="{% static 'photo/our team/870959 1.png' %}" />
+          </div>
+        </div>
+        <b class="programmer">Web/Algorithm Programmer & UI Designer</b>
+        <b class="ghifari-maaliki-syafa">Dimas Prihady Setyawan</b>
+      </div>
+      <div class="frame-div" data-aos="zoom-in-down" data-aos-duration="1000">
+        <div class="frame-parent1">
+          <div class="rectangle-parent">
+            <div class="rectangle-div"></div>
+            <div class="frame-child1"></div>
+            <div class="frame-child2"></div>
+          </div>
+          <img
+            class="unsplashzz5lqe-vsmy-icon1"
+            alt=""
+            src="{% static 'photo/our team/ogix.png' %}"
+          />
+        </div>
+        <b class="programmer">UI Designer</b>
+        <b class="ghifari-maaliki-syafa">Widian Sasi Disertasiani</b>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

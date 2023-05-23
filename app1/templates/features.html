@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="https://unpkg.com/xterm/css/xterm.css">
+<script src="https://unpkg.com/xterm/lib/xterm.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'stylesheet/style.css' %}">
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=a Atmospheric:wght@400&display=swap"
+>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+>
+</head>
+<body>
+{% include 'navbar.html' %}
+<div class="our-problem">
+  <div class="our-problem1" data-aos="zoom-in" data-aos-duration="1000">Our Problem</div>
+  <div class="problems-1">
+    <div class="problem-1">
+      <div class="frame-problem-1" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="bg-line-1">
+          <div class="bg-line-1-child"></div>
+          <div class="bg-line-1-item"></div>
+          <div class="bg-line-1-inner"></div>
+        </div>
+        <img
+          class="content-problem-1"
+          alt=""
+          src="{% static 'photo/problem/Content Problem 2.png' %}"
+        />
+      </div>
+      <b class="algoritma-program-yang" data-aos="zoom-in" data-aos-duration="1000">
+        Algoritma program yang masih dikembangkan jadi belum efisien
+      </b>
+    </div>
+    <div class="problem-1">
+      <div class="frame-problem-1" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="bg-line-1">
+          <div class="bg-line-1-child"></div>
+          <div class="bg-line-1-item"></div>
+          <div class="bg-line-1-inner"></div>
+        </div>
+        <img
+          class="content-problem-1"
+          alt=""
+          src="{% static 'photo/problem/Content Problem 1.png' %}"
+        />
+      </div>
+      <b class="algoritma-program-yang" data-aos="zoom-in" data-aos-duration="1000"
+        >Tech-Stack yang digunakan masih terbatas</b
+      >
+    </div>
+    <div class="problem-1">
+      <div class="frame-problem-1" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="bg-line-1">
+          <div class="bg-line-1-child"></div>
+          <div class="bg-line-1-item"></div>
+          <div class="bg-line-1-inner"></div>
+        </div>
+        <img
+          class="content-problem-1"
+          alt=""
+          src="{% static 'photo/problem/Content Problem 3.png' %}"
+        />
+      </div>
+      <b class="algoritma-program-yang" data-aos="zoom-in" data-aos-duration="1000"
+        >Output memiliki banyak sekali kombinasi yang tidak bisa ditampilkan semua</b
+      >
+    </div>
+  </div>
+</div>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>

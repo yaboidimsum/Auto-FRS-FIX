@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="https://unpkg.com/xterm/css/xterm.css" />
+    <script src="https://unpkg.com/xterm/lib/xterm.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'stylesheet/style.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=a Atmospheric:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    {% include 'navbar.html' %}
+    <div class="step-2">
+      <h1>Step 2</h1>
+
+      <p>Matkul yang tersedia:</p>
+      {% if data %} {% for item in data %}
+      <li>{{ item.name }}</li>
+      {% endfor %} {% endif %} {% if this_schedule %}
+      <p>Terpilih:</p>
+      {% for item in this_schedule %}
+      <li>
+        {{ item.name }} {{ item.day }} {{ item.start_hour }} {{ item.end_hour }}
+      </li>
+      {% endfor %} {% endif %}
+
+      <form method="POST" class="form-step-2">
+        {% csrf_token %}
+        <label for="subject_name">Input subject name:</label><br />
+        <input type="text" id="subject_name" name="subject_name" />
+
+        <label for="subject_code">Input subject code:</label><br />
+        <input type="text" id="subject_code" name="subject_code" />
+
+        <input type="submit" value="submit" />
+      </form>
+      <button onclick="location.href='{% url 'app1:input_activity' %}';">
+        Selanjutnya
+      </button>
+    </div>
+  </body>
+</html>
